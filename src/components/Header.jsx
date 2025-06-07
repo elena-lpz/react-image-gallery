@@ -37,7 +37,7 @@ export default function Header() {
           ABOUT
         </a>
         <img
-          src="public/assets/logos/logo-black.png"
+          src="./assets/logos/logo-black.png"
           className="h-10 md:h-20 w-auto"
           alt="Studio Ghibli logo"
         />
