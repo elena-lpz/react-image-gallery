@@ -8,7 +8,7 @@ export default function About() {
       <h1 className="font-semibold w-100 text-3xl">
         Welcome to the World of Studio Ghibli
       </h1>
-      <p className="text-s font-light w-170 my-4 text-[var(--text-blue)] text-xl">
+      <p className="font-light text-[var(--text-blue)] max-w-3xl text-base md:text-xl">
         Step into a world where forests whisper, spirits roam, and magic hides
         in plain sight. Studio Ghibli has captured the hearts of audiences
         around the globe with its breathtaking animation, unforgettable
@@ -17,7 +17,7 @@ export default function About() {
         Totoro, each film invites you to slow down, dream deeper, and see the
         beauty in the everyday.
       </p>
-      <p className="text-s font-light w-170 my-4 text-[var(--text-blue)] text-xl">
+      <p className="font-light text-[var(--text-blue)] max-w-3xl text-base md:text-xl">
         Whether you're revisiting a favorite or discovering these timeless tales
         for the first time, there's always something new to feel, to learn, and
         to love.

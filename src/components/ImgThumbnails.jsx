@@ -9,7 +9,10 @@ export default function ImgThumbnails({
       {images.map((image, index) => {
         const isSelected = index === selectedIndex;
 
-        //learned this cool thing where you can conditionally assign a classname using a ternary operator in React and was able to asign a different colour to the border of the thumbnail when selected. So if our thumbnail is selected with give it a border, if not, the border will be transparent (link in resources).
+        //learned this cool thing where you can conditionally assign a classname using a ternary operator in React and was able to asign a different colour to the border of the thumbnail when selected. So if our thumbnail is selected give it a border, if not, the border will be transparent (link in resources).
+
+        // OnKeyDown to make the modal open when pressing Enter (link in the resources)
+
         return (
           <img
             key={image.id}
@@ -38,5 +41,3 @@ export default function ImgThumbnails({
     </div>
   );
 }
-
-// OnKeyDown to make the modal open when pressing Enter (link in the resources)
