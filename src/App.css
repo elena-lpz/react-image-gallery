@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
-img {
-  max-width: 200px;
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", sans-serif;
+  scroll-behavior: smooth;
+
+  /* bg-colours */
+
+  --bg-colour-purple: #33263a;
+  --bg-colour-green: #dfe4de;
+  --bg-colour-blue: #1082b6;
+  --bg-colour-white: #fff;
+
+  /* text  */
+
+  --text-blue: #020014;
+  --text-yellow: #e1af56;
 }
