@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className=" p-4 md:p-10">
       <img
         className="w-screen object-cover"
-        src="public/assets/bg-imgs/footer-ghibli.png"
+        src="./assets/bg-imgs/footer-ghibli.png"
         alt="Tree spirits or kodama from Princess Mononoke in the background with the studio ghibli logo on top"
       />
       <p className="flex flex-wrap justify-center pt-5 font-semibold text-sm md:text-md text-gray-700">
