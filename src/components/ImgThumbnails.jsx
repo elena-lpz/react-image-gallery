@@ -5,7 +5,7 @@ export default function ImgThumbnails({
   setModal,
 }) {
   return (
-    <div className="flex gap-1 overflow-scroll ml-20 overflow-y-hidden">
+    <div className="flex gap-1 overflow-scroll overflow-y-hidden">
       {images.map((image, index) => {
         const isSelected = index === selectedIndex;
 
@@ -20,10 +20,8 @@ export default function ImgThumbnails({
             src={image.image}
             alt={image.title}
             tabIndex="0"
-            className={`cursor-pointer w-90 rounded-2xl border-4 hover:opacity-80 transition-transform duration-600 ${
-              isSelected
-                ? "border-[var(--bg-colour-purple)]"
-                : "border-transparent"
+            className={`cursor-pointer w-90 rounded-2xl h-100 border-4 hover:opacity-80 transition-transform duration-600 ${
+              isSelected ? "border-[var(--text-yellow)]" : "border-transparent"
             }`}
             onClick={() => {
               setSelectedIndex(index);

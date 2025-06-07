@@ -39,13 +39,13 @@ export const MainComponent = () => {
   return (
     <div
       id="films"
-      className="bg-[var(--bg-colour-green)] py-4 h-screen flex flex-col justify-center items-left "
+      className="ml-5 md:ml-20 bg-[var(--bg-colour-green)] py-4 h-auto flex flex-col justify-center items-left "
     >
       {/* <LargeImg image={images[selectedIndex]} /> */}
-      <h1 className="text-6xl pl-20 pt-10 text-[var(--bg-colour-blue)] font-regular pb-2">
+      <h1 className="md:text-6xl text-3xl pt-10 text-[var(--bg-colour-blue)] font-regular pb-2">
         スタジオジブリの作品
       </h1>
-      <h2 className=" text-2xl pl-20 text-gray-500 font-regular pb-10">
+      <h2 className="text-base md:text-2xl  text-gray-500 font-regular pb-10">
         Studio Ghibli's works
       </h2>
       {modal ? (
