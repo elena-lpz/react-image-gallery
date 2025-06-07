@@ -39,9 +39,8 @@ export const MainComponent = () => {
   return (
     <div
       id="films"
-      className="ml-5 md:ml-20 bg-[var(--bg-colour-green)] py-4 h-auto flex flex-col justify-center items-left "
+      className="ml-5 md:ml-20 bg-[var(--bg-colour-green)] py-6 h-auto lg:h-screen flex flex-col justify-center items-left"
     >
-      {/* <LargeImg image={images[selectedIndex]} /> */}
       <h1 className="md:text-6xl text-3xl pt-10 text-[var(--bg-colour-blue)] font-regular pb-2">
         スタジオジブリの作品
       </h1>
