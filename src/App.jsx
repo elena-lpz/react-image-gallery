@@ -18,13 +18,13 @@ export default function App() {
       <MainComponent />
 
       <img
-        className="w-screen h-screen object-cover"
+        className="w-screen h-80 md:h-auto object-cover bg-no-repeat"
         src="./assets/bg-imgs/mei.jpg"
         alt="Mei siting on the ground"
       />
       <About />
       <img
-        className="w-screen h-screen object-cover"
+        className="w-screen h-80 md:h-auto  object-cover bg-no-repeat"
         src="./assets/bg-imgs/howl-moving-castle.jpg"
         alt="Mei siting on the ground"
       />

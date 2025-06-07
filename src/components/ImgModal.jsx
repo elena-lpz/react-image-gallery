@@ -26,20 +26,24 @@ export default function ImgModal({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="bg-white p-4 rounded max-w-5xl w-full"
+        className="bg-white p-4 rounded max-w-2xl md:max-w-6xl w-90 md:w-auto"
       >
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-2 md:gap-3">
           <img
             src={image.image}
             alt={image.title}
-            className="w-1/2 object-contain max-h-[80vh] rounded"
+            className="w-auto md:w-1/2 object-contain max-h-[60vh] lg:max-h-[80vh] rounded"
           />
 
-          <div className="w-1/2 bg-amber-50 p-4 rounded flex flex-col justify-start">
-            <h2 className="text-xl font-bold mb-2">{image.title}</h2>
-            <p className="italic text-sm mb-1">{image.original_title}</p>
-            <p className="mb-3">{image.release_date}</p>
-            <p className="text-sm text-gray-600 mb-2">{image.description}</p>
+          <div className="w-auto bg-amber-50 p-4 rounded flex flex-col justify-start h-20 overflow-scroll md:h-auto md:overflow-auto">
+            <h2 className="text-md md:text-xl font-bold mb-2">{image.title}</h2>
+            <p className="italic text-xs md:text-sm mb-1">
+              {image.original_title}
+            </p>
+            <p className="text-xs md:text-sm mb-3">{image.release_date}</p>
+            <p className="text-xs md:text-sm text-gray-600 mb-2">
+              {image.description}
+            </p>
           </div>
         </div>
 
