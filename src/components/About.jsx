@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className=" relative h-auto py-10 gap-8 bg-[var(--bg-colour-blue)] flex flex-col justify-center items-center text-white text-al text-center "
+      className="relative h-auto py-10 gap-8 bg-[var(--bg-colour-blue)] flex flex-col justify-center items-center text-white text-al text-center "
     >
       <img src="./assets/small-assets/sparkle-blue.png" alt="Sparkle" />
       <h1 className="font-semibold  w-60 text-2xl md:text-3xl">
@@ -22,6 +22,29 @@ export default function About() {
         for the first time, there's always something new to feel, to learn, and
         to love.
       </p>
+
+      <img
+        src="./assets/small-assets/polaroid-ponyo.png"
+        alt="Polaroid of Ponyo in a jar"
+        className="absolute -top-10 -left-10 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
+      />
+
+      <img
+        src="./assets/small-assets/polaroid-howl.png"
+        alt="Polaroid of Ponyo in a jar"
+        className="absolute -top-30 -right-10 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
+      />
+      <img
+        src="./assets/small-assets/polaroid-mononoke.png"
+        alt="Polaroid of Princess Mononoke"
+        className="absolute hidden lg:block -bottom-100 -left-10 max-h-[40vh] xl:max-h-[60vh]"
+      />
+
+      <img
+        src="./assets/small-assets/polaroid-arrietty.png"
+        alt="Polaroid of Arrietty"
+        className="absolute -bottom-100 -right-10 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
+      />
     </div>
   );
 }
