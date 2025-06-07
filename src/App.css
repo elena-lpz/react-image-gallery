@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Bricolage Grotesque", sans-serif;
   scroll-behavior: smooth;
+  background-color: #dfe4de;
 
   /* bg-colours */
 
@@ -19,3 +20,16 @@
   --text-blue: #020014;
   --text-yellow: #e1af56;
 }
+
+/* .fade-in-section {
+  animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
