@@ -38,7 +38,6 @@ I was not able to implement the search bar for my app since I used a different A
 - [Wireframe modal](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/wireframes/wireframe2.png)
 - [Figma Design](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/figma-design/FigmaDesign.png)
 
-
 ## Reflection notes
 
 For this project, I wanted to explore and expand on the concept of a gallery, but rather than keeping it simple and static, I decided to build an immersive, interactive website centered around the world of Studio Ghibli. Instead of presenting just a list of films or clickable images, I aimed to create a more dynamic and engaging experience that captures the charm and atmosphere of Ghibli’s storytelling and visuals.

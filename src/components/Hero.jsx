@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div
       className="relative w-full"
-      style={{ height: `calc(${SECTION_HEIGHT}px + 60dvh)` }}
+      style={{ height: `calc(${SECTION_HEIGHT}px + 100dvh)` }}
     >
       <CenterImage />
 
