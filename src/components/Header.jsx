@@ -29,13 +29,13 @@ export default function Header() {
             )}
           </button>
         </div>
-
         <a
           className="hidden md:inline hover:text-sky-700 font-medium"
-          href="#about"
+          href="#films"
         >
-          ABOUT
+          FILMS
         </a>
+
         <img
           src="./assets/logos/logo-black.png"
           className="h-10 md:h-20 w-auto"
@@ -43,27 +43,28 @@ export default function Header() {
         />
         <a
           className="hidden md:inline hover:text-sky-700 font-medium"
-          href="#films"
+          href="#about"
         >
-          FILMS
+          ABOUT
         </a>
       </nav>
 
       {menuOpen ? (
         <div className="flex flex-col items-center space-y-4 pb-4 md:hidden font-medium text-gray-700">
           <a
-            href="#about"
-            onClick={() => setMenuOpen(false)}
-            className="hover:text-sky-700"
-          >
-            ABOUT
-          </a>
-          <a
             href="#films"
             onClick={() => setMenuOpen(false)}
             className="hover:text-sky-700"
           >
             FILMS
+          </a>
+
+          <a
+            href="#about"
+            onClick={() => setMenuOpen(false)}
+            className="hover:text-sky-700"
+          >
+            ABOUT
           </a>
         </div>
       ) : null}
