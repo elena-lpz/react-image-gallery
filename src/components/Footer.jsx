@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className=" p-4 md:p-10 ">
       <div className="relative ">
         <img
-          className=" w-screen object-cover max-h-200 rounded-4xl"
+          className=" w-screen object-cover max-h-150 rounded-4xl"
           src="./assets/bg-imgs/mononoke023.jpg"
           alt="Tree spirits or kodama from Princess Mononoke"
         />
