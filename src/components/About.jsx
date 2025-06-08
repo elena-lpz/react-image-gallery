@@ -22,7 +22,6 @@ export default function About() {
         for the first time, there's always something new to feel, to learn, and
         to love.
       </p>
-
       <img
         src="./assets/small-assets/polaroid-ponyo.png"
         alt="Polaroid of Ponyo in a jar"
@@ -32,7 +31,7 @@ export default function About() {
       <img
         src="./assets/small-assets/polaroid-howl.png"
         alt="Polaroid of Ponyo in a jar"
-        className="hover:scale-[1.1] transition-transform duration-600 absolute -top-30 -right-10 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
+        className="hover:scale-[1.1] transition-transform duration-600 absolute -top-30 right-0 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
       />
       <img
         src="./assets/small-assets/polaroid-mononoke.png"
@@ -43,7 +42,7 @@ export default function About() {
       <img
         src="./assets/small-assets/polaroid-arrietty.png"
         alt="Polaroid of Arrietty"
-        className="hover:scale-[1.1] transition-transform duration-600 absolute lg:-bottom-40 xl:-bottom-90  -right-10 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
+        className="hover:scale-[1.1] transition-transform duration-600 absolute lg:-bottom-40 xl:-bottom-90  right-0 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
       />
     </section>
   );
