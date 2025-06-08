@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div
+    <section
       id="about"
       className="relative h-auto pt-10 gap-8 bg-[var(--bg-colour-blue)] flex flex-col justify-center items-center text-white text-al text-center "
     >
@@ -37,7 +37,7 @@ export default function About() {
       <img
         src="./assets/small-assets/polaroid-mononoke.png"
         alt="Polaroid of Princess Mononoke"
-        className="hover:scale-[1.1] transition-transform duration-600 absolute hidden lg:block lg:-bottom-50 xl:-bottom-100 -left-10 max-h-[40vh] xl:max-h-[60vh]"
+        className="hover:scale-[1.1] transition-transform duration-600 absolute hidden lg:block lg:-bottom-50 xl:-bottom-150 -left-10 max-h-[40vh] xl:max-h-[60vh]"
       />
 
       <img
@@ -45,6 +45,6 @@ export default function About() {
         alt="Polaroid of Arrietty"
         className="hover:scale-[1.1] transition-transform duration-600 absolute lg:-bottom-40 xl:-bottom-90  -right-10 hidden lg:block max-h-[40vh] xl:max-h-[60vh]"
       />
-    </div>
+    </section>
   );
 }
