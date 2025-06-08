@@ -75,7 +75,7 @@ I used a lot of different tutorials and resources to complete this assignment. I
 
 # Credits
 
-Icons: FontAwesome
-Favicon: https://wallpapers-clan.com/app-icons/studio-ghibli/
-API: https://ghibliapi.vercel.app/films
-All images not included in the API from: https://www.ghibli.jp/
+- Icons: FontAwesome
+- Favicon: https://wallpapers-clan.com/app-icons/studio-ghibli/
+- API: https://ghibliapi.vercel.app/films
+- All images not included in the API from: https://www.ghibli.jp/
