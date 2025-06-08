@@ -37,7 +37,7 @@ export const MainComponent = () => {
   }, [selectedIndex]);
 
   return (
-    <div
+    <section
       id="films"
       className="ml-5 md:ml-20 bg-[var(--bg-colour-green)] py-6 h-auto lg:h-screen flex flex-col justify-center items-left"
     >
@@ -71,6 +71,6 @@ export const MainComponent = () => {
           setIndex={setSelectedIndex}
         />
       </div>
-    </div>
+    </section>
   );
 };
