@@ -47,12 +47,12 @@ export default function ImgModal({
           </div>
         </div>
 
-        <div className="flex justify-between mt-6">
+        <div className="flex justify-end gap-8 md:gap-5 mt-6">
           <button onClick={handleLeftClick}>
-            <i className="fa-solid fa-arrow-left cursor-pointer"></i>
+            <i className="text-xl md:text-3xl text-[var(--bg-colour-purple)] fa-solid fa-arrow-left cursor-pointer hover:text-[var(--bg-colour-blue)]"></i>
           </button>
           <button onClick={handleRightClick}>
-            <i className="fa-solid fa-arrow-right cursor-pointer"></i>
+            <i className="text-xl md:text-3xl text-[var(--bg-colour-purple)] fa-solid fa-arrow-right cursor-pointer hover:text-[var(--bg-colour-blue)]"></i>
           </button>
         </div>
       </div>
