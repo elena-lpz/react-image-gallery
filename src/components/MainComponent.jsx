@@ -15,7 +15,7 @@ export const MainComponent = () => {
   // fetching images from API
   useEffect(() => {
     async function getImages() {
-      const response = await fetch("https://ghibliapi.vercel.app/films/");
+      const response = await fetch(`${import.meta.env.VITE_API_URL}`);
       const data = await response.json();
       //   console.log(data);
       setImages(data);
