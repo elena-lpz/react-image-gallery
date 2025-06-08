@@ -34,9 +34,9 @@ I was not able to implement the search bar for my app since I used a different A
 
 ## Design
 
-[Wireframe Desktop](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/wireframes/wireframe1.png)
-[Wireframe modal](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/wireframes/wireframe2.png)
-[Figma Design](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/figma-design/FigmaDesign.png)
+- [Wireframe Desktop](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/wireframes/wireframe1.png)
+- [Wireframe modal](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/wireframes/wireframe2.png)
+- [Figma Design](https://raw.githubusercontent.com/elena-lpz/react-image-gallery/refs/heads/main/public/assets/designs/figma-design/FigmaDesign.png)
 
 
 ## Reflection notes
