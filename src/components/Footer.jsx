@@ -8,7 +8,7 @@ export default function Footer() {
           alt="Tree spirits or kodama from Princess Mononoke"
         />
         <img
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-2/3 max-w-50 md:max-w-80 lg:max-w-200 h-auto object-contain"
+          className="hover:scale-[1.1] transition-transform duration-600 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-2/3 max-w-50 md:max-w-80 lg:max-w-200 h-auto object-contain"
           src="./assets/logos/studio-ghibli-logo-white.png"
           alt="Studio Ghibli logo in white"
         />
