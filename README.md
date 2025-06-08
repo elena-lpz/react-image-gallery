@@ -46,6 +46,14 @@ I have really enjoyed working with React. I really like how it allows to break t
 
 Overall, this project was a way for me to merge what we had learned in class with a bit of creativity, and I’m happy with how it evolved from a gallery idea into something more expressive and fun.
 
+## Things I could not achieve (yet)
+
+- I originally wanted to animate the polaroid pictures using parallax but could not get to it due to time constraint, so will attempt this in the future
+
+- I tried making use of semantic tags, but we haven't really seen much on that when using React so I would like to know if I did this correctly or if there's room for improvement.
+
+- I would also like to know if the use of components was done correctly. Is there maybe a better way of structuring this type of project?
+
 # Resources
 
 I used a lot of different tutorials and resources to complete this assignment. I might be forgetting some, but these are the ones that helped me the most:
