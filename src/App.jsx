@@ -13,23 +13,24 @@ export default function App() {
   return (
     <>
       <Header />
-      <Hero1 />
-      <Quote />
-      <MainComponent />
+      <main>
+        <Hero1 />
+        <Quote />
+        <MainComponent />
 
-      <img
-        className="w-screen h-80 md:h-auto object-cover bg-no-repeat"
-        src="./assets/bg-imgs/mei.jpg"
-        alt="Mei siting on the ground"
-      />
-      <About />
-      <img
-        className="w-screen h-80 md:h-auto  object-cover bg-no-repeat"
-        src="./assets/bg-imgs/howl-moving-castle.jpg"
-        alt="Mei siting on the ground"
-      />
+        <img
+          className="relative -bottom-1 w-screen h-80 md:h-auto object-cover bg-no-repeat"
+          src="./assets/bg-imgs/mei.jpg "
+          alt="Mei siting on the ground"
+        />
+        <About />
 
-      {/* <AboutSection /> */}
+        <img
+          className="relative -top-1 w-screen h-80 md:h-auto  object-cover bg-no-repeat -z-30"
+          src="./assets/bg-imgs/howl-castle-blend.webp"
+          alt="Howl's castle in the sky"
+        />
+      </main>
       <Footer />
     </>
   );

@@ -7,6 +7,7 @@
   font-family: "Bricolage Grotesque", sans-serif;
   scroll-behavior: smooth;
   background-color: #dfe4de;
+  overflow-x: hidden;
 
   /* bg-colours */
 
@@ -17,7 +18,7 @@
 
   /* text  */
 
-  --text-blue: #020014;
+  --text-blue: #002434;
   --text-yellow: #e1af56;
 }
 

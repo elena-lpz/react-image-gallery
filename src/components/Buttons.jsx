@@ -11,7 +11,7 @@ export default function Buttons({ currentIndex, length, setIndex }) {
 
   return (
     <div className="m-4 flex gap-5 justify-between md:justify-end pt-4 mr-20 text-[var(--bg-colour-blue)]">
-      <button className="" id="button-left" onClick={handleLeftClick}>
+      <button id="button-left" onClick={handleLeftClick}>
         <i className="text-3xl ml-20 fa-solid fa-arrow-left cursor-pointer"></i>
       </button>
       <button id="button-right" onClick={handleRightClick}>
