@@ -51,20 +51,20 @@ Overall, this project was a way for me to merge what we had learned in class wit
 
 I used a lot of different tutorials and resources to complete this assignment. I might be forgetting some, but these are the ones that helped me the most:
 
-https://www.youtube.com/watch?v=RDxnu8Xt5Rk
-https://www.youtube.com/watch?v=cWRrqivxZMk
-https://www.youtube.com/watch?v=KsjixiVhVyY
-https://learnersbucket.com/examples/interview/responsive-slideshow-in-reactjs/
-https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation
-https://ghibliapi.vercel.app/#section/Studio-Ghibli-API
-https://color.adobe.com/es/create/image
-https://dev.to/cesareferrari/conditionally-assign-a-css-class-to-a-react-component-jk5
-https://khuang159.medium.com/creating-a-hamburger-menu-in-react-f22e5ae442cb
-https://stackoverflow.com/questions/74969485/onclick-event-for-enter-button-in-react-js#
-https://www.youtube.com/watch?v=E5NK61vO_sg
-https://www.youtube.com/watch?v=TUVoZvnCRwI
+- https://www.youtube.com/watch?v=RDxnu8Xt5Rk
+- https://www.youtube.com/watch?v=cWRrqivxZMk
+- https://www.youtube.com/watch?v=KsjixiVhVyY
+- https://learnersbucket.com/examples/interview/responsive-slideshow-in-reactjs/
+- https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation
+- https://ghibliapi.vercel.app/#section/Studio-Ghibli-API
+- https://color.adobe.com/es/create/image
+- https://dev.to/cesareferrari/conditionally-assign-a-css-class-to-a-react-component-jk5
+- https://khuang159.medium.com/creating-a-hamburger-menu-in-react-f22e5ae442cb
+- https://stackoverflow.com/questions/74969485/onclick-event-for-enter-button-in-react-js#
+- https://www.youtube.com/watch?v=E5NK61vO_sg
+- https://www.youtube.com/watch?v=TUVoZvnCRwI
 
-https://tailwindcss.com/docs/installation/using-vite
+- https://tailwindcss.com/docs/installation/using-vite
 
 # Credits
 
